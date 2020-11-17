@@ -3,7 +3,7 @@
 A skeleton flask app to use for a coding challenge.
 ## Prerequisites
 
-- [Python3](https://www.python.org/downloads/)
+- [Python3.7](https://www.python.org/downloads/)
 - [flask-restful](https://flask-restful.readthedocs.io/en/0.3.3/installation.html)
 - [Git](https://git-scm.com/)
 
