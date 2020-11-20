@@ -87,7 +87,7 @@ class UsersProfilesTest(unittest.TestCase):
 
     def get_github_mock_headers(self):
         mock_headers = {}
-        if self.app.config.get('GITHUB_TOKEN') != None:
+        if self.app.config.get('GITHUB_TOKEN') != None and self.app.config.get('GITHUB_TOKEN') != "":
             mock_headers['Authorization'] = f'token {self.app.config.get("GITHUB_TOKEN")}'
         mock_headers['Accept'] = f'application/vnd.github.{self.app.config.get("GITHUB_VERSION")}+json'
         return mock_headers
